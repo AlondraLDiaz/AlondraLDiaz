@@ -124,24 +124,29 @@ button[type="submit"]:hover{
 
 
 #status{
- width: 90%;
- max-width: 500px;
- text-align: center;
+  width: 90%;
+max-width: 500px;
+text-align: center;
 padding: 10px;
 margin: 0 auto;
 border-radius: 8px;
 }
 
-#status.success{
-    background-color: green;
-    animation: status 4s ease forwards;
-}
 
 #status.error{
-    background-color: red;
+  background-color: red;
+  color: white;
+  animation: status 4s ease forwards;
+}
+
+#status.success{
+    background-color: green;
     color: white;
     animation: status 4s ease forwards;
 }
+
+
+
 @keyframes status{
     0%{
         opacity: 1;
