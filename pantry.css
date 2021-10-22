@@ -115,8 +115,8 @@ h3{
   letter-spacing: 1pt;
   margin-bottom: 9.5%;
   margin-top: -10%;
-  margin-right: 5%;
-  margin-left: 5%;
+  margin-right: 15%;
+  margin-left: 15%;
 }
 
 .detailed-block{
@@ -190,7 +190,7 @@ H2{
   font-weight: bolder;
   letter-spacing: 1pt;
   margin-top: 8%;
-  margin-right: 5%;
+  margin-right: 11%;
   margin-left: 11%;
   margin-bottom: 2%;
 }
@@ -202,7 +202,8 @@ h5{
   text-align: left;
   line-height: 45pt;
   font-size: 20pt;
-  margin-left:11%;
+  margin-right: 11%;
+  margin-left: 11%;
   }
 
 
@@ -210,6 +211,8 @@ h5{
 
 .contentResearch{
     margin-bottom: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
 }
 
 .researchContent{
@@ -244,6 +247,11 @@ p.researchContent > ul,li {
 
 /* definition and ideate css */
 
+.contentDefSynth{
+  margin-bottom: 8%;
+  margin-right: 8%;
+  margin-left: 8%;
+}
 
 .defsynthContent{
       color: #707070;
@@ -270,7 +278,9 @@ p.researchContent > ul,li {
 /* prototyping section */
 
 .prototestContent{
-    margin-bottom: 5%;
+  margin-bottom: 8%;
+  margin-right: 8%;
+  margin-left: 8%;
 }
 
 .protoContent{
@@ -356,8 +366,8 @@ font-weight: bold;
 
 .prototypeContainer{
   padding: 5%;
-  margin-top: -2%;
-  margin-right: 11%;
+  margin-top: -8%;
+  margin-right: 15%;
   margin-left: 11%;
 }
 

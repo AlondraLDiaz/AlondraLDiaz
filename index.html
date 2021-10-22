@@ -16,7 +16,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
+
 <body>
         <header>
             <nav class="navbar navbar-expand-lrg bg">
@@ -165,8 +167,19 @@
 </footer>
 
 
+
+<script>
+ScrollReveal({ 
+        reset: true,
+        distance: '8px',
+        duration: 1000,
+        delay: 200 
+    });
+ScrollReveal().reveal('div', { delay: 100, easing:'ease-in', origin: 'top'});
+
+ </script>
+
 </body>
-<script src="portfolio.js"></script>
 
 
 

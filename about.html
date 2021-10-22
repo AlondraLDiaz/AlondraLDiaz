@@ -21,7 +21,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="about.css">
-
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
@@ -214,12 +214,36 @@
                     <a href="https://www.instagram.com/chulolaa/" ><img src="images/insta icon.png" style="width: 30px;margin-right: 7px"></a>
                     <a href="https://dribbble.com/Alondralola" > <img src="images/dribble icon.png" style="width: 25px;margin-right: 7px"></a>
                 </div>
-                <div class="footerCopyright" style="margin-top: 7%; font-size: 10pt; text-align: center;">  © Alondra Diaz. All Rights Reserved </style></div>
+                <div class="footerCopyright" style="margin-top: 7%; font-size: 10pt; text-align: center;"> <p> © Alondra Diaz. All Rights Reserved </style></div></p>
             </div>
         </div>
         <div class="col"> </div>
     </div>
 </footer>
+
+
+<script>
+    ScrollReveal({ 
+            reset: true,
+            distance: '8px',
+            duration: 1000,
+            delay: 350 
+        });
+
+    ScrollReveal().reveal('nav', { delay: 300, easing:'ease-in', origin: 'top'});
+    ScrollReveal().reveal('section', { delay: 300,easing:'ease-in', origin: 'top'});
+    ScrollReveal().reveal('img', { delay: 300, easing:'ease-in', origin: 'top'});
+    ScrollReveal().reveal('p', { delay: 300,easing:'ease-in',  origin: 'top'});
+    ScrollReveal().reveal('footer', { delay: 5, origin: 'top'});
+    ScrollReveal().reveal('button', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('H1', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('H2', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('H3', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('H4', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('H5', { delay: 120, easing:'ease-in',origin: 'top'});
+                ScrollReveal().reveal('p', { delay: 120,easing:'ease-in', origin: 'top'});
+                ScrollReveal().reveal('li', { delay: 120,easing:'ease-in', origin: 'top'});
+     </script>
 
 
 </body>

@@ -190,7 +190,7 @@
     font-weight: bolder;
     letter-spacing: 1pt;
     margin-top: 8%;
-    margin-right: 5%;
+    margin-right: 11%;
     margin-left: 11%;
     margin-bottom: 2%;
   }
@@ -202,14 +202,17 @@
     text-align: left;
     line-height: 45pt;
     font-size: 20pt;
-    margin-left:11%;
+    margin-right: 11%;
+    margin-left: 11%;
     }
   
   
   /* research  setion css */
   
   .contentResearch{
-      margin-bottom: 8%;
+    margin-bottom: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
   }
   
   .researchContent{
@@ -243,7 +246,12 @@
 
   /* definition and ideate css */
   
-  
+  .contentDefSynth{
+    margin-bottom: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
+  }
+
   .defsynthContent{
         color: #707070;
         font-family: 'Cabin', sans-serif;
@@ -259,8 +267,8 @@
       .sketches{
         text-align: center;
         margin-top: 5%;
-        margin-right: 11%;
-        margin-left: 11%;
+        margin-right: 17%;
+        margin-left: 13%;
         margin-bottom: 5%;
       }
   
@@ -269,7 +277,9 @@
   /* prototyping section */
   
   .prototestContent{
-      margin-bottom: 5%;
+    margin-bottom: 8%;
+    margin-right: 8%;
+    margin-left: 8%;
   }
   
   .protoContent{
@@ -286,13 +296,13 @@
   .wireframes{
     text-align: center;
     margin-top: 5%;
-    margin-right: 11%;
+    margin-right: 15%;
     margin-left: 11%;
-    margin-bottom: 5%;
+    margin-bottom: 8%;
   
   }
   
-  
+
   button[type="midProto"]{
     width:200px;
     border: none;
@@ -319,8 +329,6 @@
   }
   
   
-  
-  
   .inspoPics{
     text-align: center;
     margin-top: 5%;
@@ -333,7 +341,7 @@
   .logoPics{
     text-align: center;
     margin-top: 5%;
-    margin-right: 11%;
+    margin-right: 17%;
     margin-left: 11%;
     margin-bottom: 5%;
   

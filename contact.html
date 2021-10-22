@@ -16,6 +16,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="contact.css">
+  <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 <body>
 <header>
@@ -82,9 +83,16 @@
   </footer>
   
 
-
-
-
+  <script>
+    ScrollReveal({ 
+            reset: true,
+            distance: '5px',
+            duration: 2500,
+            delay: 320 
+        });
+    ScrollReveal().reveal('div', { delay: 250, origin: 'top'});
+    
+     </script>
 
 </body>
 <script src="contact.js">
@@ -108,6 +116,7 @@ var form = document.getElementById("my-form");
       });
     }
     form.addEventListener("submit", handleSubmit)
+
 </script>
 
 </html>
