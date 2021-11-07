@@ -11,66 +11,70 @@
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="portfolio.css">
-    <script src="https://kit.fontawesome.com/e131827593.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Responsive css/respHome.css"> 
     <script src="https://unpkg.com/scrollreveal"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/e131827593.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/7c396dc5cb.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
 <body>
         <header>
-            <nav class="navbar navbar-expand-lrg bg">
-                <div class="nav-logo"> <a href="http://www.alondraloladiaz.com/"> <img src="images/Alondra Portfolio logo.png"> </a></div>
-                <div class="navMenu">
+            <nav class="navbar navbar-expand-sml bg">
+                <div class="nav-logo"> <a class="nav-logo" href="http://www.alondraloladiaz.com/"><img src="Redesign Assets/HomePage Assets /Logo AD OP.png" style="width: max 10%;width: 60px;"></a>
+                </div>
+                <div class="NavBar2">
                     <div class="nav">
-                        <div class="nav-item">
-                            <a class="nav-link" href="about.html">About</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link" href="/">Work</a>
-                        </div>
-                        <div class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </div>
+                        <ul class="sideMenu">
+                            <div class="nav-item">
+                                <div class="current"> <a class="nav-link" href="/" style="color: #F7BC54;">Work</a></div>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link"href="about.html">About</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" href="Redesign Assets/Alondra D Resume.pdf">Resume</a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" href="https://dribbble.com/Alondralola"><i class="fab fa-dribbble"style="font-size:1.5em;"></i></a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" href="https://instagram.com/Chulolaa/"><i class="fab fa-instagram"style="font-size:1.75em;"></i></a>
+                            </div>
+                            <div class="nav-item">
+                                <a class="nav-link" href="https://github.com/AlondraLDiaz"><i class="fab fa-github"style="font-size:1.5em;"></i></a> 
+                            </div>
+                        </ul>
                     </div>
                 </div>
             </nav>
         </header>
 
-        <div class="mainContainer">
-            <section class="alondraText">
-                <H1> Hi, I’m Alondra  <BR> Diaz</H1>
-                    <p class="introText"> I design with a story that explores the
-                        <br> metaphorically explicit which elicits
-                        <br> an intrinsic vision for a memorable
-                        <br> experience in the digital sphere.
-                    </p>
-                    <div class="contactPagebutton">
-                        <a href="contact.html"> <button type="inTouch"> Let's Connect! </button></a>
-                    </div>
-            </section>
-        
-            <div class="alondraElements">
-                <img class="initialBackground" src="images/alondra background.png" style="width: 540px;">
-                <img class="alondraImg" src="images/IMG_7971.png" style="width: 330px;">
+<div class="HeroSection">
+    <div class="mainContainer">
+        <div class="alondraText">
+            <H1> Welcome, </H1>
+            <p class="introText"> To the mind of a <br>
+                designer who <br> codes and <br> creates <br> memorable<br>
+                experiences for <br> humans.
+            </p>
+            <H2> Hi, I'm </H2>
+        </div>
+
+        <div class="alondraElements">
+            <div class="block-pink">
+                <img class="alondraImg" src="Redesign Assets/HomePage Assets /AD image.png" style="width: 250px;">
+                <H3> Alondra </H3> <img class="orgGif" src="Redesign Assets/HomePage Assets /Orange Gif.gif"
+                    style=" transform: rotate(10deg);">
             </div>
         </div>
+    </div>
+</div>
         
-        <section class="arrowAnimation">
-            <div class="sectionArrow">
-                <div class="arrow">
-                    <span class="orangeArrow" style="font-size: 5em; color: orange;">
-                        <i class="fas fa-angle-down"></i>
-                        </span>
-                    </div>
-        
-                </div>
-            </section>
-       
 
-<section class="caseContainter">
+<section class="caseContainer">
     <div class="workContainer">
         <div class="workGrid">
 
@@ -92,21 +96,6 @@
             </div>
 
 
-            <!-- <div class="item1">
-                <div class="caseStudy">
-                    <img class="caseStudy-img" src="NASA Images/NASA logo.png" alt="NASA logo" style="width: 600px">
-                    <div class="caseStudy-blurb">
-                        <h4><strong>NASA</strong></h4>
-                        <p class="caseStudy-summary">Reimagining an iconic brand
-                            in continuance with advancement in science
-                            and aerospace to reach all audiences. </p>
-                        <br>
-                        <div class="casestudyPagebutton">
-                            <a href="nasa.html"> <button type="caseStudy"> View Case Study </button></a>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
 
             <div class="item1">
                 <div class="caseStudy">
@@ -155,7 +144,7 @@
         <div class="col">
             <div class="footerAll">
                 <div class="footerSocials" style="margin-top: 5%; text-align: center;">
-                    <a href="https://github.com/AlondraLDiaz" > <img src="images/github icon.png"style="width: 25px;margin-right: 7px">
+                    <a href="https://github.com/AlondraLDiaz" > <img src="images/github icon.png"style="width: 25px;margin-right: 7px"></a>
                     <a href="https://www.instagram.com/chulolaa/" ><img src="images/insta icon.png" style="width: 30px;margin-right: 7px"></a>
                     <a href="https://dribbble.com/Alondralola" > <img src="images/dribble icon.png" style="width: 25px;margin-right: 7px"></a>
                 </div>
@@ -167,7 +156,7 @@
 </footer>
 
 
-
+<!-- 
 <script>
 ScrollReveal({ 
         reset: true,
@@ -179,7 +168,7 @@ ScrollReveal().reveal('div', { delay: 100, easing:'ease-in', origin: 'top'});
 
  </script>
 
-</body>
+</body> -->
 
 
 
