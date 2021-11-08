@@ -255,7 +255,7 @@ footer {
 /* MEDIA Screens */
 
 
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 400px) {
 
   .nav-logo{
     width: 30px;
@@ -306,14 +306,10 @@ H1{
 }
 .orgGif{
   opacity: 0;
-}
+} */
 
-
-
-
-
-
-}
+/* 
+} */
 
 
 
