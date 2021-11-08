@@ -69,7 +69,7 @@ a:hover {
       top: 130.502px;
     }
 
-    .alondraElements{
+    .container-Elements{
       margin-left: 8%;
       margin-top: -4%;
     }
@@ -252,7 +252,85 @@ footer {
 
 
 
+/* MEDIA Screens */
 
+
+@media screen and (max-width: 500px) {
+
+  .nav-logo{
+    width: 30px;
+    margin-bottom: 35%;
+  }
+
+
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+      grid-template-columns: 1fr;
+      grid-template-rows: none;
+      grid-template-areas: 
+      "alondraText"
+      "alondraElements"
+      "block-pink"
+      "alondraImg";
+      padding: 70px;
+      padding-bottom: 105%;
+  }
+
+H1{
+  font-size: 55pt;
+  text-align: right;
+  margin-top: 15%;
+}
+
+.introText{
+  margin-top: -5%;
+}
+
+  .alondraElements{
+    width: 100vh;
+    align-self: flex-start;
+
+}
+
+.block-pink{
+  transform: translate(-5%, -5%);
+}
+
+
+.alondraImg{
+  width: 100%;
+  align-self: flex-start;
+  margin-right: 90%;
+
+}
+.orgGif{
+  opacity: 0;
+}
+
+
+
+
+
+
+}
+
+
+
+
+  
+
+  
+  
+/*     
+  Mobile: 360 x 640
+  Mobile: 375 x 667
+  Mobile: 360 x 720
+  iPhone X: 375 x 812
+  Pixel 2: 411 x 731
+  Tablet: 768 x 1024
+  Laptop: 1366 x 768
+  High-res laptop or desktop: 1920 x 1080 */
 
 
 
