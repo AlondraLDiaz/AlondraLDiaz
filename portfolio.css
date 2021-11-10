@@ -9,29 +9,26 @@ html{
     text-align:right;
     list-style: none;
     margin-left: 3%;
-    margin-top: -18%;
+    margin-top: -12%;
 }
 
-.NavBar2{
+.navbar{
+  margin-top: 5%;
+  width: 100%;
   color: #707070;
   font-family:'Poppins', sans-serif;
   text-align:left;
   font-size: 14pt;
   list-style: none;
-  margin-top: 5%;
-  margin-right: 4%;
 }
 
-.nav-item{ 
+.nav-links{ 
+  margin-right: 3%;
   color: #707070;
   font-family:'Poppins', sans-serif;
   font-weight: lighter;
   text-align:left;
   list-style: none;
-}
-
-.nav-link{
-  border: none;
 }
 
 a {
@@ -42,110 +39,135 @@ a:hover {
   color:#F7BC54;
   }
 
+  .mobile-container {
+    display: none;
+    max-width: 480px;
+    margin: auto;
+    background-color: white;
+    height: 500px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    border-radius: 10px;
+  }
+
   /* Intro Section css */
 
-  .mainContainer{
+
+
+  header{
     display: grid;
+    flex-direction: flex;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 600px;
-   margin-top: -11%;
-   margin-left: 2%;
-   max-width: 500%;
+    width: 100vw;
+    height: 100vh;
+     margin-top: -11%;
+     margin-left: 2%;
+     max-width: 500%;
+
+  }
+
+  .header-content{
+    margin-left: 8%;
+    margin-top: -10%;
   } 
 
-  .alondraText{
-    margin-top: -8%;
-    margin-right: -1%;
-  }
-   
-    .alondraImg{
-      margin-top: 13%;
-      margin-left: 18%;
-      padding: 2px;
-      transform: translate(-13%, -39%);
-      z-index: 1;
-      left: 26.2039px;
-      position: relative;
-      top: 130.502px;
-    }
-
-    .container-Elements{
-      margin-left: 8%;
-      margin-top: -4%;
-    }
-
-    .block-pink{
-      position: absolute;
-      background-color: #FCECF0;
-      height: 500px;
-      width: 395px;
-      transform: translate(9%, -18%);
-      z-index: -1;
-    }
-  
   H1{
     font-family:'Poppins', sans-serif;
     color: #4D4D4D;
     font-weight: lighter;
     text-align:right;
-    font-size: 55pt;
-    line-height: 67pt;
-    transform: translate(8%, -80%);
+    font-size: 10vmin;
+    transform: translate(8%, -90%);
   }
-  
+
   .introText{
     font-family: 'Poppins', sans-serif;
     color: #8C8B8B;
     font-weight: lighter;
-    font-size: 28pt;
-    line-height: 35pt;
+    font-size: 6vmin;
+    line-height: 37pt;
     text-align: right;
     letter-spacing: .5pt;
     word-wrap: break-word;
-    transform: translate(6%, -18%);
+    transform: translate(6%, -23%);
   }
 
+  h2{
+    font-family:'Poppins', sans-serif;
+    color: #4D4D4D;
+    font-weight: lighter;
+    font-size: 7vmin;
+    text-align:right;
+    line-height: 67pt;
+    transform: translate(6%, -90%);
+  }
 
+    .container-Elements{
+      margin-left: 8%;
+      margin-top: 2%;
+    }
+
+    .block-pink{
+      position: absolute;
+      background-color: #FCECF0;
+      height: 520px;
+      width: 395px;
+      transform: translate(9%, -30%);
+      z-index: -1;
+    }
+
+    .alondraImg{
+      margin-top: 13%;
+      margin-left: 18%;
+      padding: 2px;
+      transform: translate(-10%, -40%);
+      z-index: 1;
+      left: 26.2039px;
+      position: relative;
+      top: 130.502px;
+      justify-content: center;
+    }
+  
   h3{
     font-family:'Bold''Poppins', sans-serif;
     color:#F7BC54;
     font-weight: bold;
-    font-size: 50pt;
+    font-size: 9vmin;
     text-align:center;
     line-height: 60pt;
     letter-spacing: 1.5pt;
-    transform: translate(-2%, 5%);
+    transform: translate(-2%, 14%);
     z-index: 1;
 
   }
 
 .orgGif{
-  width: 115px;
+  width: 135px;
   margin-right: 75%;
   margin-left: -12%;
-  margin-top: -8%;
+  margin-top: -12%;
 }
 
 
  /*  Case study CSS */
 
   
-
-.caseContainer{
-  margin-top: -25%;
+ .workGrid{
+  display:grid;
+  grid-template-areas: 'myArea1';
+  grid-template-columns: 2fr;
+  margin: 5%;
+  padding: 40px;
 }
 
-
-  h2{
-    font-family:'Poppins', sans-serif;
-    color: #4D4D4D;
-    font-weight: lighter;
-    font-size: 40pt;
-    text-align:right;
-    line-height: 67pt;
-    transform: translate(6%, -70%);
-  }
-
+.item1{
+  display: grid;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  background-color: #fdeed4; 
+  max-width: 1200px;
+}
 
 
 .caseStudy {
@@ -184,21 +206,7 @@ h4{
   margin-bottom: -3%;
 }
 
- .workGrid{
-     display:grid;
-     grid-template-areas: 'myArea1';
-     grid-template-columns: 2fr;
-     margin: 5%;
-     padding: 40px;
- }
-
-.item1{
-    display: grid;
-    margin-top: 8%;
-    margin-bottom: 4%;
-    background-color: #fdeed4; 
-    max-width: 1200px;
-}
+ 
 
 button[type="caseStudy"]{
   width: 200px;
@@ -231,93 +239,289 @@ button[type="caseStudy"]:hover{
 
 footer {
   justify-content: space-evenly;
-  font-size: 18pt;
-  font-family: 'Raleway', sans-serif;
+  font-size: 20pt;
+  font-family: 'Poppins', sans-serif;
   color: black;
-  background-color:#fdeed4;
   padding: 4%;
   }
   
 
 .footerAll{
   margin:0 auto;
-  text-align: center;
+  text-align: flex-start;
 
 }
 
 .footerSocials{
   margin:0 auto;
-  text-align: center;
+  text-align: flex-start;
 }
 
 
 
-/* MEDIA Screens */
+/* * Media Queries */
 
 
-/* @media screen and (max-width: 400px) {
+@media only screen and (max-width:780px){ 
+/* anything more than 700 css style */
+  /* With Mobile View + Nav */
 
-  .nav-logo{
-    width: 30px;
-    margin-bottom: 35%;
+  .mobile-container {
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    border-radius: 10px;
+    margin-top: -20%;
+    margin-right: -5%;
+  }
+  
+  .topnav {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+    text-align:right;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    font-family: 'Poppins', sans-serif;
+    color: #70707070;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    color: #70707070;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color:#F7BC54;
+  }
+  
+  .active {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #70707070;
   }
 
-
-  .mainContainer{
-    display: flex;
-    flex-direction: column;
-      grid-template-columns: 1fr;
-      grid-template-rows: none;
-      grid-template-areas: 
-      "alondraText"
-      "alondraElements"
-      "block-pink"
-      "alondraImg";
-      padding: 70px;
-      padding-bottom: 105%;
+  .navbar{
+    margin-top: 18%;
+    margin-bottom: 15%;
+    padding:40px;
+  }
+  .nav-links{
+    display: none;
+    margin-top: -9000px;
   }
 
-H1{
-  font-size: 55pt;
-  text-align: right;
-  margin-top: 15%;
+  .main{
+    display: grid;
+    columns: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    margin-top: -10%;
+    padding: 100px;
+  
+  }
+
+  .header-content, .introText{
+    margin:0px auto;
+    font-size: 3vmin;
+    line-height: 32pt;
+  }
+  
+  H1,H2,H3{
+    font-size: 4vmin;
+    }
+  
+  .container-Elements{
+  align-self: center;
+    }
+  
+    .block-pink{
+      margin-right: -15%;
+    }
+  
+
 }
+
+@media only screen and (max-width:992px){ 
+/* anything more than 992 css style */
+  /* With Mobile View + Nav */
+  .mobile-container {
+    display: block;
+    max-width: 700px;
+    margin: auto;
+    background-color: white;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: #707070;
+    border-radius: 10px;
+    margin-top: -20%;
+    margin-right: -5%;
+  }
+  
+  .topnav {
+    font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+    background-color:white;
+    position: relative;
+    text-align:right;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    font-family: 'Poppins', sans-serif;
+    color: #70707070;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    font-family: 'Poppins', sans-serif;
+    background: white;
+    color: #70707070;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color:#F7BC54;
+  }
+  
+  .active {
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+    color: #70707070;
+  }
+
+  .navbar{
+    margin-top: 18%;
+    margin-bottom: 15%;
+    padding:40px;
+  }
+  .nav-links{
+    display: none;
+    margin-top: -9000px;
+  }
+
+  .main{
+    display: grid;
+    columns: 2;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px;
+    margin-top: -10%;
+    padding: 100px;
+  
+  }
+
+  .header-content, .introText{
+    margin:0px auto;
+    font-size: 3vmin;
+    line-height: 32pt;
+  }
+  
+  H1,H2,H3{
+    font-size: 4vmin;
+    }
+  
+  .container-Elements{
+  align-self: center;
+    }
+  
+    .block-pink{
+      margin-right: -15%;
+    }
+  
+
+}
+
+
+
+
+
+@media only screen and (max-width:1250px){ 
+/* anything less than 1100 css style */
+  /* With Mobile View + Nav */
+ 
+
+}
+
+
+
+@media only screen and (max-width:1330px){ 
+
+/* anything less than 1330 css style */
+.nav-logo{
+    margin-right: 8%;
+    margin-bottom: 5%;
+  }
+
+.navbar{
+  width: 95%;
+}
+.main{
+  bottom: 15px;
+}
+.header-content{
+  margin-right: 18%;
+}
+
+H1,H2,H3{
+  font-size: 4rem;
+  }
 
 .introText{
-  margin-top: -5%;
+ font-size: 25pt;
+line-height: 32pt;
 }
 
-  .alondraElements{
-    width: 100vh;
-    align-self: flex-start;
+.container-Elements{
+ margin-left: -15%;
+  }
+
+  .block-pink{
+    margin-right: -15%;
+  }
+
 
 }
 
-.block-pink{
-  transform: translate(-5%, -5%);
-}
-
-
-.alondraImg{
-  width: 100%;
-  align-self: flex-start;
-  margin-right: 90%;
-
-}
-.orgGif{
-  opacity: 0;
-} */
-
-/* 
-} */
 
 
 
 
-  
 
-  
-  
+
+
+
 /*     
   Mobile: 360 x 640
   Mobile: 375 x 667

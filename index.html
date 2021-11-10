@@ -20,46 +20,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
-        <header>
-            <nav class="navbar navbar-expand-sml bg">
-                <div class="nav-logo"> <a class="nav-logo" href="http://www.alondraloladiaz.com/"><img src="Redesign Assets/HomePage Assets /Logo AD OP.png" style="width: max 10%;width: 60px;"></a>
-                </div>
-                <div class="NavBar2">
-                    <div class="nav">
-                        <div class="plusMenu"><i class="far fa-plus" style="color:#F7BC54;font-size: 2em;"></i>
-                            <ul class="sideMenu">
-                                <div class="nav-item">
-                                    <div class="current"> <a class="nav-link" href="/" style="color: #F7BC54;">Work</a></div>
-                                </div>
-                                <div class="nav-item">
-                                    <a class="nav-link" href="about.html">About</a>
-                                </div>
-                                <div class="nav-item">
-                                    <a class="nav-link" href="Redesign Assets/Alondra D Resume.pdf">Resume</a>
-                                </div>
-                                <div class="nav-item">
-                                    <a class="nav-link" href="https://dribbble.com/Alondralola"><i class="fab fa-dribbble"
-                                            style="font-size:1.5em;"></i></a>
-                                </div>
-                                <div class="nav-item">
-                                    <a class="nav-link" href="https://instagram.com/Chulolaa/"><i class="fab fa-instagram"
-                                            style="font-size:1.75em;"></i></a>
-                                </div>
-                                <div class="nav-item">
-                                    <a class="nav-link" href="https://github.com/AlondraLDiaz"><i class="fab fa-github"
-                                            style="font-size:1.5em;"></i></a>
-                                </div>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
-        </header>
 
-<div class="HeroSection">
-    <div class="mainContainer">
-        <div class="alondraText">
+<body>
+        <nav class="navbar">
+            <h1 class="nav-logo"> <a class="nav-logo" href="http://www.alondraloladiaz.com/"><img src="Redesign Assets/HomePage Assets /Logo AD OP.png" style="width: max 10%;width: 60px;"></a></h1>
+                    <ul class="nav-links">
+                        <ol>
+                            <a class="nav-link" href="/" style="color: #F7BC54;">Work</a>
+                        </ol>
+                        <ol>
+                            <a class="nav-link" href="about.html">About</a>
+                        </ol>
+                        <ol>
+                            <a class="nav-link" href="Redesign Assets/Alondra D Resume.pdf">Resume</a>
+                        </ol>
+                        <ol>
+                            <a class="nav-link" href="https://dribbble.com/Alondralola"><i class="fab fa-dribbble"
+                                    style="font-size:1.5em;"></i></a>
+                        </ol>
+                        <ol>
+                            <a class="nav-link" href="https://instagram.com/Chulolaa/"><i class="fab fa-instagram"
+                                    style="font-size:1.75em;"></i></a>
+                        </ol>
+                        <ol>
+                            <a class="nav-link" href="https://github.com/AlondraLDiaz"><i class="fab fa-github"
+                                    style="font-size:1.5em;"></i></a>
+                        </ol>
+                    </ul>
+                    <div class="mobile-container">
+                        <!-- Top Navigation Menu -->
+                        <div class="topnav">
+                          <a href="#home" class="active">h</a>
+                          <div id="myLinks">
+                            <a href="/index.html" style="color:#F7BC54;">Work</a>
+                            <a href="about.html">About</a>
+                            <a href="Redesign Assets/Alondra D Resume.pdf">Resume</a>
+                          </div>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                            <i class="fa fa-bars" style="font-size: 2rem;"></i>
+                          </a>
+                        </div>
+            </div>
+        </nav>
+
+
+<header class="main">
+        <div class="header-content">
             <H1> Welcome, </H1>
             <p class="introText"> To the mind of a <br>
                 designer who <br> codes and <br> creates <br> memorable<br>
@@ -72,15 +78,13 @@
             <div class="block-pink">
                 <img class="alondraImg" src="Redesign Assets/HomePage Assets /AD image.png" style="width: 250px;">
                 <H3> Alondra </H3> <img class="orgGif" src="Redesign Assets/HomePage Assets /Orange Gif.gif"
-                    style=" transform: rotate(10deg);">
+                    style=" transform: rotate(19deg);">
             </div>
         </div>
-    </div>
-</div>
-        
+</header>     
 
-<section class="caseContainer">
     <div class="workContainer">
+
         <div class="workGrid">
 
             <div class="item1">
@@ -144,20 +148,17 @@
             </div>
         </div>
 
-</section>
 
 
 
 <footer>
     <div class="row">
         <div class="col">
+            <div class="footerCopyright" style="margin-top: 7%; font-size: 10pt; text-align: center;">  © 2021 Alondra Diaz. All Rights Reserved. </style></div>
         </div>
         <div class="col">
             <div class="footerAll">
-                <div class="footerSocials" style="margin-top: 5%; text-align: center;">
-
-                </div>
-                <div class="footerCopyright" style="margin-top: 7%; font-size: 10pt; text-align: center;">  © 2021 Alondra Diaz. All Rights Reserved. </style></div>
+                <div class="footerCopyright" style="margin-top: 7%; font-size: 10pt; text-align: center;"> Back to the top </style></div>
             </div>
         </div>
         <div class="col"> </div>
@@ -165,19 +166,33 @@
 </footer>
 
 
-<!-- 
+
+
 <script>
-ScrollReveal({ 
-        reset: true,
-        distance: '5px',
-        duration: 1200,
-        delay: 200 
-    });
-ScrollReveal().reveal('div', { delay: 100, easing:'ease-in', origin: 'top'});
+    function myFunction() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      }
+    }
+    </script>
 
- </script>
 
-</body> -->
+
+// <!-- <script>
+// ScrollReveal({ 
+//         reset: true,
+//         distance: '5px',
+//         duration: 1200,
+//         delay: 200 
+//     });
+// ScrollReveal().reveal('div', { delay: 100, easing:'ease-in', origin: 'top'});
+
+//  </script> -->
+
+</body>
 
 
 
