@@ -50,19 +50,18 @@ a:hover {
 
   header{
     display: grid;
-    flex-direction: flex;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 600px;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header-content1" "elements-container";
     width: 100vw;
-    height: 100vh;
-     margin-top: -8%;
-     margin-left: 2%;
-     max-width: 500%;
-     margin-bottom: -20%;
-
+    height: 65vh;
+    margin-top: -8%;
+    max-width: 500%;
+    grid-gap: 3em;
   }
 
-  .header-content{
+  #header-content1{
     margin-left: 8%;
     margin-top: -10%;
   } 
@@ -72,7 +71,7 @@ a:hover {
     color: #4D4D4D;
     font-weight: lighter;
     text-align:right;
-    font-size: 10vmin;
+    font-size: 8vmin;
     transform: translate(8%, -90%);
   }
 
@@ -80,7 +79,7 @@ a:hover {
     font-family: 'Poppins', sans-serif;
     color: #8C8B8B;
     font-weight: lighter;
-    font-size: 6vmin;
+    font-size: 5vmin;
     line-height: 37pt;
     text-align: right;
     letter-spacing: .5pt;
@@ -98,50 +97,26 @@ a:hover {
     transform: translate(6%, -90%);
   }
 
-    .container-Elements{
+    #elements-Container2{
       margin-left: 8%;
       margin-top: 2%;
     }
 
-    .block-pink{
-      position: absolute;
-      background-color: #FCECF0;
-      height: 520px;
-      width: 395px;
-      transform: translate(9%, -30%);
-      z-index: -1;
-    }
-
     .alondraImg{
+      position: relative;
+      width: 65%;
+      top: 130.502px;
+      left: 26.2039px;
       margin-top: 13%;
       margin-left: 18%;
-      padding: 2px;
-      transform: translate(-10%, -40%);
-      z-index: 1;
-      left: 26.2039px;
-      position: relative;
-      top: 130.502px;
-      justify-content: center;
+      transform: translate(-25%, -65%);
     }
   
-  h3{
-    font-family:'Bold''Poppins', sans-serif;
-    color:#F7BC54;
-    font-weight: bold;
-    font-size: 9vmin;
-    text-align:center;
-    line-height: 60pt;
-    letter-spacing: 1.5pt;
-    transform: translate(-2%, 14%);
-    z-index: 1;
-
-  }
-
 .orgGif{
   width: 135px;
-  margin-right: 75%;
-  margin-left: -12%;
-  margin-top: -12%;
+  margin-right: 55%;
+  margin-left: -5%;
+  margin-top: -85%;
 }
 
 /* reworked CSS */
@@ -331,7 +306,8 @@ footer{
 @media only screen and (max-width:500px){ 
   /* anything more than 700 css style */
     /* With Mobile View + Nav */
-  
+
+
     .mobile-container {
       display: block;
       max-width: 700px;
@@ -401,24 +377,33 @@ footer{
       margin-top: -9000px;
     }
   
-    .main-wrapper{
+ 
+    header{
       display: grid;
-      columns: 2;
       grid-template-columns: 1fr;
-      grid-template-rows: 575px;
-      height: fit-content;
-      justify-content: center;
-      margin-top: -20%;
-      margin: auto;
-      padding: 100px;
+      grid-template-rows: 1fr;
+      grid-template-areas: 
+      "header-content1" 
+      "elements-container2";
+      height: 140vh;
+      margin-top: 8%;
+      max-width: 500%;
+      grid-gap: 3em;
+      padding: 90px;
     }
 
-  H1, H3{
+
+  #header-content1{
+    margin-left: 8%;
+    margin-top: -10%;
+  } 
+
+  H1{
       font-size: 25pt;
       justify-content: center;
       }
 
-      H2{
+  H2{
         font-size: 25pt;
         justify-content: center;
         margin-top: 5%;
@@ -430,21 +415,18 @@ footer{
       line-height: 32pt;
       justify-content: center;
     }
-  
-      .container-Elements{
-        display: grid;
-        columns: 2;
-        grid-template-columns: 1fr;
-        grid-template-rows: 150px;
-        height: fit-content;
-        max-width: 90px;
-        height: 75px;
-      }
+
+    .alondraImg{
+      position: relative;
+      width: 115%;
+      margin-top: 25%;
+      margin-left: 13%;
+      justify-content: center;
+    }
 
       .orgGif{
         display: none;
       }
-
 
       .container{
         grid-template-columns: 1fr;
@@ -456,24 +438,30 @@ footer{
         "content4"
         "content5"
         "content6";
+        grid-gap: .5em;
+        height: fit-content;
+        margin-bottom: -70%;
       }
+
 
       H5{
         font-size: 2.4em;}
 
       #content3{
-        width: 95%;
+        width: 90%;
         align-items: right;
-        margin: 8%;
+        margin-top: -50%;
       }
 
       #content4{
-        padding: 50px;
+        padding: 60px;
         justify-content: center;
+        margin-top: -75%;
         margin-right: 5%;
       }
 
       h6{
+        margin-left: 1%;
         justify-content: right;
         font-size: 2.3em;
   
@@ -483,26 +471,38 @@ footer{
         width: 70%;
         font-size: 1.2em;
         margin-bottom: 10%;
-        margin-left: 10%;
+        margin-left: 5%;
       }
 
       #uol-link{
         justify-content: right;
-        margin-left: 53%;
+        margin-left: 50%;
       }
       #content5{
         padding: 45px;
+        margin-top: -60%;
       }
 
       #content6{
         padding: 60px;
-        margin-top: -15%;
+        margin-top: -60%;
         margin-left: auto;
-
       }
 
+      footer{
+        font-size: .90em;
+        margin-left: -5%;
+        bottom: -200px;
+      }
 
-
+      .scrollToTopBtn {
+        bottom: 35px;
+        font-size: 20pt;
+        width: 20px;
+        right: 60px;
+        line-height: 90px;
+      }
+       
   }
 @media only screen and (max-width:780px){ 
 /* anything more than 700 css style */
@@ -624,15 +624,6 @@ footer{
       margin: 0;
       margin-left: 15%;
     }
-
-
-
-
-
-
-
-
-
 
 
 
