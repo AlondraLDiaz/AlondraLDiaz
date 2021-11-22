@@ -307,62 +307,77 @@ footer{
   /* anything more than 700 css style */
     /* With Mobile View + Nav */
 
+    body {
+      overflow-x: hidden !important;
+  }
+  .container {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+  }
 
-    .mobile-container {
-      display: block;
-      max-width: 700px;
-      margin: auto;
-      background-color: white;
-      height: 50px;
-      font-family: 'Poppins', sans-serif;
-      color: #707070;
-      border-radius: 10px;
-      margin-top: -25%;
-      margin-right: -5%;
-    }
-    
-    .topnav {
-      font-family: 'Poppins', sans-serif;
-      overflow: hidden;
-      background-color:white;
-      position: relative;
-      text-align:right;
-    }
-    
-    .topnav #myLinks {
-      display: none;
-    }
-    
-    .topnav a {
-      font-family: 'Poppins', sans-serif;
-      color: #70707070;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-size: 17px;
-      display: block;
-    }
-    
-    .topnav a.icon {
-      font-family: 'Poppins', sans-serif;
-      background: white;
-      color: #70707070;
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 0;
-    }
-    
-    .topnav a:hover {
-      font-family: 'Poppins', sans-serif;
-      background-color: white;
-      color:#F7BC54;
-    }
-    
-    .active {
-      font-family: 'Poppins', sans-serif;
-      background-color: white;
-      color: #70707070;
-    }
+/* Mobile Nav  */
+
+.mob-logo{
+  position: absolute;
+  top: 25px;
+  left: 0px;
+  right: 350px;
+  font-size: 36px;
+}
+
+  .sidepanel  {
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    left: 1000;
+    right: 0;
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color: #70707070;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidepanel a:hover {
+    color: orange;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 20px;
+    left: 500px;
+    right: 0;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    text-align:right;
+    top: 0;
+    left: 1000;
+    right: 0;
+    cursor: pointer;
+    background-color: white;
+    color: orange;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color:#F4F4F4;
+  }
+
   
    .nav-logo{
     display: block;
@@ -370,6 +385,7 @@ footer{
     max-width: 50px;
     height: 45px;
     position: relative;
+    z-index: 1;
     }
 
     .nav-links{
@@ -377,7 +393,6 @@ footer{
       margin-top: -9000px;
     }
   
- 
     header{
       display: grid;
       grid-template-columns: 1fr;
@@ -508,61 +523,68 @@ footer{
 /* anything more than 700 css style */
   /* With Mobile View + Nav */
 
-  .mobile-container {
-    display: block;
-    max-width: 700px;
-    margin: auto;
-    background-color: white;
-    height: 50px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
-    border-radius: 10px;
-    margin-top: -25%;
-    margin-right: -5%;
-  }
-  
-  .topnav {
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-    background-color:white;
-    position: relative;
-    text-align:right;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    font-family: 'Poppins', sans-serif;
-    color: #70707070;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    font-family: 'Poppins', sans-serif;
-    background: white;
-    color: #70707070;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color:#F7BC54;
-  }
-  
-  .active {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color: #70707070;
-  }
+  body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
+/* Mobile Nav  */
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 250px;
+  top: 0;
+  left: 1000;
+  right: 0;
+  background-color: #F2F2F2;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  color: #70707070;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidepanel a:hover {
+  color: orange;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  right:-150px;
+  font-size: 36px;
+}
+
+.openbtn {
+  font-size: 20px;
+  text-align:left;
+  top: 0;
+  left: 1000;
+  right: 0;
+  cursor: pointer;
+  background-color: white;
+  color: orange;
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:#F4F4F4;
+}
+ 
   .nav-logo{
     margin-top: -9%;
     margin-right: 8%;
@@ -573,34 +595,54 @@ footer{
     margin-top: -9000px;
   }
 
-  .main{
+  header{
     display: grid;
-    columns: 2;
     grid-template-columns: 1fr;
-    grid-template-rows: 400px;
-    margin-top: -10%;
-    padding: 100px;
-  
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    "header-content1" 
+    "elements-container2";
+    height: 140vh;
+    margin-top: 8%;
+    max-width: 500%;
+    grid-gap: 3em;
+    padding: 150px;
+    justify-content: center;
   }
 
-  .header-content, .introText{
+
+#header-content1{
+  margin-left: 8%;
+  margin-top: -10%;
+} 
+
+H1{
+    font-size: 25pt;
+    justify-content: center;
+    }
+
+H2{
+      font-size: 25pt;
+      justify-content: center;
+      margin-top: 5%;
+      }
+
+  .introText{
     margin:0px auto;
-    font-size: 3vmin;
+    font-size: 15pt;
     line-height: 32pt;
+    justify-content: center;
   }
-  
-  H1,H2,H3{
-    font-size: 4vmin;
-    }
-  
-  .container-Elements{
-  align-self: center;
-    }
-  
-    .block-pink{
-      margin-right: -15%;
-    }
-  
+
+  .alondraImg{
+    position: sticky;
+    padding: 15px;
+    width: 105%;
+    margin-top: 55%;
+    margin-left: 28%;
+    justify-content: center;
+  }
+
     .orgGif{
       display: none;
     }
@@ -615,7 +657,6 @@ footer{
       "content4"
       "content5"
       "content6";
-  
     }
 
     #content2{
@@ -632,9 +673,14 @@ footer{
 @media only screen and (max-width:992px){ 
 /* anything more than 992 css style */
   /* With Mobile View + Nav */
-*{font-family: 'Poppins', sans-serif;
-
+  body {
+    overflow-x: hidden !important;
 }
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+
 
   .mobile-container {
     display: block;
@@ -740,15 +786,27 @@ footer{
 @media only screen and (max-width:1250px){ 
 /* anything less than 1100 css style */
   /* With Mobile View + Nav */
- 
+  body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 
 }
 
-
-
 @media only screen and (max-width:1330px){ 
-
 /* anything less than 1330 css style */
+
+body {
+  overflow-x: hidden !important;
+}
+.container {
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
 .nav-logo{
     margin-right: 8%;
     margin-bottom: 5%;
@@ -785,7 +843,13 @@ line-height: 32pt;
 }
 
 @media only screen and (min-width:2000px){ 
-
+  body {
+    overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
 }
 
 
