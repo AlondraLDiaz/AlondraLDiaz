@@ -288,229 +288,11 @@ footer{
   transform: translateY(0);
 }
 
+
+
+
 /* * Media Queries */
-
-
-
-@media only screen and (max-width:450px){
-
-body {
-    overflow-x: hidden !important;
-}
-.container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
-/* Mobile Nav  */
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 200;
-  height: 250px;
-  top: 0;
-  left: 1000;
-  right: 0;
-  background-color: #FDFDFD;
-  opacity: 0.95;
-  overflow-x: hidden;
-  transition: 0.5s ease-in-out;
-}
-
-.sidepanel a {
-  padding: 8px 8px 8px 8px;
-  text-align: right;
-  line-height: 20pt;
-  right: 350px;
-  font-size: 10pt;
-  color: #70707070;
-  display: block;
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
-}
-
-.sidepanel a:hover {
-  color: orange;
-}
-
-.mob-link{
-  font-size: 0.5em;
-  padding-left: 0px;
-  padding-right: 510px;
-}
-
-
-
-.sidepanel .closebtn {
-  position: absolute;
-  padding: 5px;
-  top: 60px;
-  left: 15px;
-  right: 50px;
-}
-
-.openbtn {
-  top: 0;
-  left: 1000;
-  right: 0;
-  cursor: pointer;
-  background-color: white;
-  color: orange;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: white;
-}
-
-.mob-logo{
-  width: 0;
-  position: absolute;
-  z-index: 1;
-  left: 50px;
-  right: 0;
-}
-
- .nav-logo{
-  display: block;
-  top: 10px;
-  position: relative;
-  z-index: 1;
-  }
-
-  .nav-links{
-    display: none;
-    margin-top: -9000px;
-  }
-
-  header{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    grid-template-areas: 
-    "header-content1" 
-    "elements-container2";
-    height: 140vh;
-    margin-top: 8%;
-    max-width: 500%;
-    grid-gap: 3em;
-    padding: 90px;
-  }
-
-
-#header-content1{
-  margin-left: 8%;
-  margin-top: -10%;
-} 
-
-H1{
-    font-size: 25pt;
-    justify-content: center;
-    }
-
-H2{
-      font-size: 25pt;
-      justify-content: center;
-      margin-top: 5%;
-      }
-
-  .introText{
-    margin:0px auto;
-    font-size: 15pt;
-    line-height: 32pt;
-    justify-content: center;
-  }
-
-  .alondraImg{
-    position: relative;
-    width: 115%;
-    margin-top: 25%;
-    margin-left: 13%;
-    justify-content: center;
-  }
-
-    .orgGif{
-      display: none;
-    }
-
-    .container{
-      grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
-      grid-template-areas: 
-      "content1"
-      "content2"
-      "content3"
-      "content4"
-      "content5"
-      "content6";
-      height: fit-content;
-      align-items: center;
-      column-gap: 5em;
-    }
-
-    H5{
-      font-size: 2.4em;}
-
-    #content3{
-      width: 90%;
-      align-items: right;
-    }
-
-    #content4{
-      padding: 60px;
-      justify-content: center;
-      margin-top: -75%;
-      margin-right: 5%;
-    }
-
-    h6{
-      margin-left: 1%;
-      justify-content: right;
-      font-size: 2.3em;
-
-    }
-
-    p.UOL{
-      width: 70%;
-      font-size: 1.2em;
-      margin-bottom: 10%;
-      margin-left: 5%;
-    }
-
-    #uol-link{
-      justify-content: right;
-      margin-left: 50%;
-    }
-    #content5{
-      padding: 45px;
-
-    }
-
-    #content6{
-      padding: 60px;
-      margin-left: auto;
-    }
-
-    footer{
-      font-size: .90em;
-      margin-left: -5%;
-      bottom: -200px;
-    }
-
-    .scrollToTopBtn {
-      bottom: 35px;
-      font-size: 20pt;
-      width: 20px;
-      right: 60px;
-      line-height: 90px;
-    }
-     
-}
-
-@media only screen and (max-width:550px){ 
-  /* anything less than 500 css style */
-    /* With Mobile View + Nav */
-
+@media only screen and (max-width:380px){ 
 body {
       overflow-x: hidden !important;
   }
@@ -527,7 +309,6 @@ body {
     top: 0;
     left: 1000;
     right: 0;
-    font-size: 0.5em;
     background-color: #FDFDFD;
     opacity: 0.95;
     overflow-x: hidden;
@@ -538,10 +319,10 @@ body {
   
   .sidepanel a {
     padding: 8px 8px 8px 8px;
-    text-align: right;
+    text-align: left;
     line-height: 20pt;
-    margin-right: 25%;
-    font-size: 0.5em;
+    margin-right: 45%;
+    font-size: 17px;
     color: #70707070;
     display: block;
     text-decoration: none;
@@ -552,28 +333,19 @@ body {
     color: orange;
   }
 
-  .mob-link{
-    font-size: 0.5em;
-  }
-  
-  #links{
-    padding-left: 0px;
-    padding-right: 510px;
-    font-size: 0.5em;
-  }
-  
   .sidepanel .closebtn {
     position: absolute;
     padding: 5px;
+    font-size: 25px;
     top: 60px;
-    left: 15px;
-    right: 50px;
+    left: 90px;
+    right: 0px;
   }
   
   .openbtn {
     top: 0;
-    left: 1000;
-    right: 0;
+    left: 900;
+    right: 90px;
     cursor: pointer;
     background-color: white;
     color: orange;
@@ -592,12 +364,15 @@ body {
     left: 50px;
     right: 0;
   }
+
+#links{
+    margin-top: 25%;
+    padding: 25px;
+    text-align: left;
+  }
   
    .nav-logo{
-    display: block;
-    top: 10px;
-    position: relative;
-    z-index: 1;
+    display: none;
     }
 
     .nav-links{
@@ -626,12 +401,152 @@ body {
   } 
 
   H1{
-      font-size: 25pt;
+      font-size: 2rem;
       justify-content: center;
       }
 
   H2{
-        font-size: 25pt;
+      font-size: 2rem;
+        justify-content: center;
+        margin-top: 5%;
+        }
+
+    .introText{
+      margin:0px auto;
+      font-size: 15pt;
+      line-height: 32pt;
+      justify-content: center;
+    }
+
+    .alondraImg{
+      position: relative;
+      width: 115%;
+      margin-top: 25%;
+      margin-left: 13%;
+      justify-content: center;
+    }
+
+      .orgGif{
+        display: none;
+      }
+
+      .container{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-areas: 
+        "content1"
+        "content2"
+        "content3"
+        "content4"
+        "content5"
+        "content6";
+        grid-gap: .5em;
+        height: fit-content;
+        margin-bottom: -70%;
+      }
+
+
+      H5{
+        font-size: 2.4em;}
+
+      #content3{
+        width: 90%;
+        align-items: right;
+        margin-top: -50%;
+      }
+
+      #content4{
+        padding: 60px;
+        justify-content: center;
+        margin-top: -75%;
+        margin-right: 5%;
+      }
+
+      h6{
+        margin-left: 1%;
+        justify-content: right;
+        font-size: 2.3em;
+  
+      }
+
+      p.UOL{
+        width: 70%;
+        font-size: 1.2em;
+        margin-bottom: 10%;
+        margin-left: 5%;
+      }
+
+      #uol-link{
+        justify-content: right;
+        margin-left: 50%;
+      }
+      #content5{
+        padding: 45px;
+        margin-top: -60%;
+      }
+
+      #content6{
+        padding: 60px;
+        margin-top: -60%;
+        margin-left: auto;
+      }
+
+      footer{
+        font-size: .90em;
+        margin-left: -5%;
+        bottom: -200px;
+      }
+
+      .scrollToTopBtn {
+        bottom: 35px;
+        font-size: 20pt;
+        width: 20px;
+        right: 60px;
+        line-height: 90px;
+      }
+       
+  }
+
+@media only screen and (max-width:550px){ 
+  /* anything less than 500 css style */
+    /* With Mobile View + Nav */
+
+body {
+      overflow-x: hidden !important;
+  }
+  .container {
+      max-width: 100% !important;
+      overflow-x: hidden !important;
+  }
+ 
+  
+    header{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-template-areas: 
+      "header-content1" 
+      "elements-container2";
+      height: 140vh;
+      margin-top: 8%;
+      max-width: 500%;
+      grid-gap: 3em;
+      padding: 90px;
+    }
+
+
+  #header-content1{
+    margin-left: 8%;
+    margin-top: -10%;
+  } 
+
+  H1{
+      font-size: 3rem;
+      justify-content: center;
+      }
+
+  H2{
+         font-size: 3rem;
         justify-content: center;
         margin-top: 5%;
         }
@@ -742,87 +657,6 @@ body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
-/* Mobile Nav  */
-.sidepanel  {
-  width: 0;
-  position: fixed;
-  z-index: 200;
-  height: 250px;
-  top: 0;
-  left: 1000;
-  right: 0;
-  background-color: #FDFDFD;
-  opacity: 0.95;
-  overflow-x: hidden;
-  transition: 0.5s ease-in-out;
-  padding-top: 60px;
-
-}
-
-.sidepanel a {
-  padding: 8px 8px 8px 32px;
-  text-align: right;
-  line-height: 20pt;
-  margin-right: 15%;
-  font-size: 25px;
-  color: #70707070;
-  display: block;
-  text-decoration: none;
-  transition: 0.3s ease-in-out;
-}
-
-.sidepanel a:hover {
-  color: orange;
-}
-
-#links{
-  padding: 50px;
-  padding-right: 25px;
-}
-
-.sidepanel .closebtn {
-  position: absolute;
-  padding: 5px;
-  top: 60px;
-  left: 0px;
-  right: 15px;
-  font-size: 35px;
-}
-
-.openbtn {
-  font-size: 20px;
-  top: 0;
-  left: 1000;
-  right: 0;
-  cursor: pointer;
-  background-color: white;
-  color: orange;
-  padding: 10px 15px;
-  border: none;
-}
-
-.openbtn:hover {
-  background-color: white;
-}
-
-.mob-logo{
-  width: 0;
-  position: absolute;
-  z-index: 1;
-  left: 50px;
-  right: 0;
-}
-
-
-
-  .nav-logo{
-    display: none;
-  }
-
-  .nav-links{
-    display: none;
-    margin-top: -9000px;
-  }
 
   header{
     display: grid;
@@ -846,19 +680,19 @@ body {
 } 
 
 H1{
-    font-size: 25pt;
+    font-size: 4rem;
     justify-content: center;
     }
 
 H2{
-      font-size: 25pt;
+     font-size: 4rem;
       justify-content: center;
       margin-top: 5%;
       }
 
   .introText{
     margin:0px auto;
-    font-size: 15pt;
+    font-size: 4rem;
     line-height: 32pt;
     justify-content: center;
   }
@@ -924,43 +758,6 @@ H2{
     margin-right: -5%;
   }
   
-  .topnav {
-    font-family: 'Poppins', sans-serif;
-    overflow: hidden;
-    background-color: white;
-    position: relative;
-    text-align:right;
-  }
-  
-  .topnav #myLinks {
-    display: none;
-  }
-  
-  .topnav a {
-    font-family: 'Poppins', sans-serif;
-    color: #70707070;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
-  }
-  
-  .topnav a.icon {
-    font-family: 'Poppins', sans-serif;
-    background: white;
-    color: #70707070;
-    display: block;
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  
-  .topnav a:hover {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color:#F7BC54;
-  }
-  
   .active {
     font-family: 'Poppins', sans-serif;
     background-color: white;
@@ -987,24 +784,15 @@ H2{
   
   }
 
-  .header-content, .introText{
+.introText{
     margin:0px auto;
-    font-size: 3vmin;
+    font-size: 3rem;
     line-height: 32pt;
   }
   
-  H1,H2,H3{
-    font-size: 4vmin;
+  H1,H2{
+    font-size: 4rem;
     }
-  
-  .container-Elements{
-  align-self: center;
-    }
-  
-    .block-pink{
-      margin-right: -15%;
-    }
-
     .orgGif{
       display: none;
     }
@@ -1056,29 +844,15 @@ H1,H2,H3{
   }
 
 .introText{
- font-size: 25pt;
+font-size: 2rem;
 line-height: 32pt;
 }
-
-.container-Elements{
- margin-left: -15%;
-  }
-
-  .block-pink{
-    margin-right: -15%;
-  }
 
 
 }
 
 @media only screen and (min-width:2000px){ 
-  body {
-    overflow-x: hidden !important;
-}
-.container {
-    max-width: 100% !important;
-    overflow-x: hidden !important;
-}
+ 
 }
 
 
