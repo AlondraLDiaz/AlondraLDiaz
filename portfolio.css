@@ -33,7 +33,9 @@ a {
 a:hover {
   color:#F7BC54;
   }
-
+.mobile-container{
+  display: none;
+}
 
   /* Intro Section css */
 
@@ -268,6 +270,7 @@ footer{
   font-size: 25pt;
   line-height: 48px;
   width: 50px;
+  text-decoration: none;
 
   /* place it at the bottom right corner */
   position: fixed;
@@ -301,13 +304,25 @@ body {
       overflow-x: hidden !important;
   }
   /* Mobile Nav  */
+  .navbar{
+    top: 15px;
+    right: 0px;
+    left: 50px;
+    justify-content: center;
+  }
+
+  .mobile-container{
+    display: block;
+    padding-left: 95%;
+  }
+
   .sidepanel  {
     width: 0;
     position: fixed;
     z-index: 200;
     height: 250px;
     top: 0;
-    left: 1000;
+    left: 500;
     right: 0;
     background-color: #FDFDFD;
     opacity: 0.95;
@@ -337,17 +352,17 @@ body {
     position: absolute;
     padding: 5px;
     font-size: 25px;
-    top: 60px;
-    left: 90px;
+    top: 50px;
+    left: 110px;
     right: 0px;
   }
   
   .openbtn {
     top: 0;
-    left: 900;
-    right: 90px;
+    left: 0;
+    right: 0;
     cursor: pointer;
-    background-color: white;
+    background-color:white;
     color: orange;
     padding: 10px 15px;
     border: none;
@@ -356,31 +371,31 @@ body {
   .openbtn:hover {
     background-color: white;
   }
-  
+
   .mob-logo{
     width: 0;
     position: absolute;
     z-index: 1;
-    left: 50px;
-    right: 0;
+    left: 0px;
+    right: 250px;
+    background-color: red;
   }
 
 #links{
-    margin-top: 25%;
-    padding: 25px;
+    padding-top: 30%;
+    padding: 30px;
     text-align: left;
   }
   
    .nav-logo{
     display: none;
     }
-
     .nav-links{
       display: none;
       margin-top: -9000px;
     }
   
-    header{
+header{
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
@@ -396,22 +411,17 @@ body {
 
 
   #header-content1{
+    justify-content: center;
     margin-left: 8%;
     margin-top: -10%;
   } 
 
-  H1{
+  H1,H2{
       font-size: 2rem;
-      justify-content: center;
       }
 
-  H2{
-      font-size: 2rem;
-        justify-content: center;
-        margin-top: 5%;
-        }
-
     .introText{
+      margin-bottom: 5%;
       margin:0px auto;
       font-size: 15pt;
       line-height: 32pt;
@@ -422,7 +432,6 @@ body {
       position: relative;
       width: 115%;
       margin-top: 25%;
-      margin-left: 13%;
       justify-content: center;
     }
 
@@ -504,8 +513,7 @@ body {
         right: 60px;
         line-height: 90px;
       }
-       
-  }
+    }
 
 @media only screen and (max-width:550px){ 
   /* anything less than 500 css style */
@@ -744,35 +752,6 @@ H2{
     overflow-x: hidden !important;
 }
 
-
-  .mobile-container {
-    display: block;
-    max-width: 900px;
-    margin: auto;
-    background-color: white;
-    height: 50px;
-    font-family: 'Poppins', sans-serif;
-    color: #707070;
-    border-radius: 10px;
-    margin-top: -20%;
-    margin-right: -5%;
-  }
-  
-  .active {
-    font-family: 'Poppins', sans-serif;
-    background-color: white;
-    color: #70707070;
-  }
-
-  .navbar{
-    margin-top: 18%;
-    margin-bottom: 15%;
-    padding:40px;
-  }
-  .nav-links{
-    display: none;
-    margin-top: -9000px;
-  }
 
   .main{
     display: grid;
