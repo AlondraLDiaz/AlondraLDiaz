@@ -64,7 +64,7 @@ a:hover {
     font-weight: lighter;
     text-align:right;
     font-size: 8vmin;
-    transform: translate(8%, -90%);
+    transform: translate(0%, -90%);
   }
 
   .introText{
@@ -155,10 +155,6 @@ p.pantry{
   width: 75%;
   font-size: 1.2em;
   margin-bottom: 10%;
-}
-
-.work-Img{
-  width: 90%;
 }
 
 .work-link{
@@ -297,9 +293,9 @@ footer{
 
 /* * Media Queries */
 @media only screen and (max-width:450px){ 
-body {
-  max-width: 90% !important;
-      overflow-x: hidden !important;
+body{
+  max-width: 87% !important;
+  overflow-x: hidden !important;
   }
   .container {
       max-width: 90% !important;
@@ -307,16 +303,18 @@ body {
   }
   /* Mobile Nav  */
   .navbar{
-    top: 15px;
-    right: 0px;
-    left: 50px;
-    padding-bottom: 70px;
+    top: 35px;
+    right: 55px;
+    left: 55px;
+    padding-bottom: 100px;
     justify-content: center;
   }
 
   .mobile-container{
+    position: absolute;
     display: block;
-    padding-left: 50%;
+    padding-right: 5%;
+    padding-left: 78%;
   }
 
   .sidepanel  {
@@ -325,7 +323,7 @@ body {
     z-index: 200;
     height: 250px;
     top: 0;
-    left: 500;
+    left: 700;
     right: 0;
     background-color: #FDFDFD;
     opacity: 0.97;
@@ -338,9 +336,9 @@ body {
   .sidepanel a {
     padding: 8px 8px 8px 8px;
     text-align: left;
-    line-height: 20pt;
+    line-height: 25pt;
     margin-right: 45%;
-    font-size: 17px;
+    font-size: 20px;
     color: #70707070;
     display: block;
     text-decoration: none;
@@ -355,7 +353,7 @@ body {
     position: absolute;
     padding: 5px;
     font-size: 25px;
-    top: 50px;
+    top: 40px;
     left: 85px;
     right: 0px;
   }
@@ -364,10 +362,11 @@ body {
     top: 0;
     left: 0;
     right: 0;
+    font-size: 30px;
     cursor: pointer;
     background-color:white;
     color: orange;
-    padding: 10px 15px;
+    padding: 0px 0px;
     border: none;
   }
   
@@ -379,8 +378,8 @@ body {
     width: 0;
     position: absolute;
     z-index: 1;
-    left: -15px;
-    right: 200px;
+    left: -30px;
+    right: 250px;
   }
 
 #links{
@@ -405,12 +404,12 @@ header{
       "elements-container2";
       max-width: 100%;
       margin: 0 auto;
-      padding: 70px 80px 90px 20px;
+      padding: 50px 80px 90px 40px;
     }
 
   #header-content1{
     justify-content: center;
-    padding: 0px 50px 0px 10px;
+    padding: 0px 50px 0px 20px;
   } 
 
   H1, H2{
@@ -420,10 +419,9 @@ header{
     }
 
 .introText{
-  margin: 0px auto;
-  font-size: 1.2rem;
+  margin: 0 auto;
+  font-size: 1.5rem;
   line-height: 23pt;
-  padding-left: 20px;
   word-break: keep-all;
   justify-content: center;
 }
@@ -435,7 +433,7 @@ header{
 
 .alondraImg{
   width: 105%;
-  padding: 0px 0px 25px 25px;
+  padding: 0px 0px 25px 20px;
   justify-content: center;
 }
 
@@ -445,7 +443,8 @@ header{
 
 .container{
         display: grid;
-        grid-template-columns: 0.85fr;
+        flex-direction: flex;
+        grid-template-columns: 1fr;
         grid-template-rows: 500px;
         grid-template-areas:
         "content1" 
@@ -462,26 +461,25 @@ header{
 
 /* rework css for this sections */
 
-
 #content1, #content5{
-padding: 50px 50px 50px 0px;
+margin: 0 auto;
 justify-content: center;
 }
       
 .work-Img{
-width: 115%;
+  width: 100%;
  }
 
 .uol-Img{
    width: 100%;
  }
       
-      #content2{
-        grid-area: 'content2';
-        text-align: left;
-      }
+#content2{
+grid-area: 'content2';
+justify-content: center;
+}
       
-      h5{
+h5{
         font-family: 'Medium''Poppins', sans-serif;
         color: #4D4D4D;
         font-size: 2.4rem;
@@ -524,7 +522,7 @@ width: 115%;
         bottom: 35px;
         font-size: 20pt;
         width: 20px;
-        right: 100px;
+        right: 50px;
         line-height: 90px;
       }
     }
