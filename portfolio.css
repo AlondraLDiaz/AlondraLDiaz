@@ -1,0 +1,544 @@
+/* nav css */
+
+.nav-logo {
+  text-align:right;
+  list-style: none;
+  margin-left: 3%;
+  margin-top: -8%;
+}
+
+.navbar{
+margin-top: 5%;
+width: 100%;
+color: #707070;
+font-family:'Poppins', sans-serif;
+text-align:left;
+font-size: 14pt;
+list-style: none;
+}
+
+.nav-links{ 
+margin-right: 3%;
+color: #707070;
+font-family:'Poppins', sans-serif;
+font-weight: lighter;
+text-align:left;
+list-style: none;
+}
+
+a {
+color: #707070;
+}
+
+a:hover {
+color:#F7BC54;
+}
+.mobile-container{
+display: none;
+}
+
+/* Intro Section css */
+
+
+header{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: 
+  "header-content1" "elements-container";
+  width: 100vw;
+  height: 65vh;
+  margin-top: -8%;
+  max-width: 500%;
+  grid-gap: 3em;
+}
+
+#header-content1{
+  margin-left: 8%;
+  margin-top: -10%;
+} 
+
+H1{
+  font-family:'Poppins', sans-serif;
+  color: #4D4D4D;
+  font-weight: lighter;
+  text-align:right;
+  font-size: 8vmin;
+  transform: translate(0%, -90%);
+}
+
+.introText{
+  font-family: 'Poppins', sans-serif;
+  color: #8C8B8B;
+  font-weight: lighter;
+  font-size: 5vmin;
+  line-height: 37pt;
+  text-align: right;
+  letter-spacing: .5pt;
+  word-wrap: break-word;
+  transform: translate(6%, -23%);
+}
+
+h2{
+  font-family:'Poppins', sans-serif;
+  color: #4D4D4D;
+  font-weight: lighter;
+  font-size: 7vmin;
+  text-align:right;
+  line-height: 67pt;
+  transform: translate(6%, -90%);
+}
+
+  #elements-Container2{
+    margin-left: 8%;
+    margin-top: 2%;
+  }
+
+  .alondraImg{
+    position: relative;
+    width: 65%;
+    top: 130.502px;
+    left: 26.2039px;
+    margin-top: 13%;
+    margin-left: 18%;
+    transform: translate(-25%, -65%);
+  }
+
+.orgGif{
+width: 135px;
+margin-right: 55%;
+margin-left: -5%;
+margin-top: -85%;
+}
+
+/* reworked CSS */
+.container{
+display:grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+grid-template-areas: 
+"content1" "content2" 
+"content3" "content4"
+"content4" "content6"
+"footer";
+margin-right: 5%;
+grid-gap: 2em;
+}
+
+
+#content1{
+grid-area: 'content1';
+padding: 50px;
+align-items: right;
+margin: 0 auto;
+}
+
+
+#content2{
+grid-area: 'content2';
+width: 100%;
+align-items: left;
+margin: 25%;
+margin-left: -5%;
+}
+
+h5{
+font-family: 'Medium''Poppins', sans-serif;
+color: #4D4D4D;
+font-size: 3em;
+margin-bottom: 5%;
+}
+
+p.pantry{
+font-family: 'Poppins', sans-serif;
+color: #707070;
+width: 75%;
+font-size: 1.2em;
+margin-bottom: 10%;
+}
+
+.work-link{
+font-family: 'Poppins', sans-serif;
+font-size: 1.2em;
+}
+
+.work-link:hover{
+font-family: 'Medium''Poppins', sans-serif;
+color: #F7BC54;
+text-decoration-line: none;
+}
+
+/* text */
+#content3{
+grid-area: 'content3';
+width: 100%;
+align-items: right;
+margin: 17%;
+}
+
+/* image */
+#content4{
+grid-area: 'content4';
+padding: 15px;
+justify-content: left;
+margin-right: 20%;
+}
+
+
+h6{
+font-family: 'Medium''Poppins', sans-serif;
+color: #4D4D4D;
+justify-content: right;
+font-size: 3em;
+margin-left: 7%;
+margin-bottom: 5%;
+}
+
+
+p.UOL{
+font-family: 'Poppins', sans-serif;
+color: #707070;
+width: 75%;
+text-align: right;
+font-size: 1.2em;
+margin-bottom: 10%;
+}
+
+#uol-link{
+justify-content: right;
+margin-left: 57%;
+}
+
+
+#content5{
+grid-area: 'content5';
+padding: 50px;
+align-items: right;
+margin: 0 auto;
+}
+
+#content6{
+grid-area: 'content6';
+width: 100%;
+align-items: left;
+margin: 25%;
+margin-left: -5%;
+}
+
+h5{
+font-family: 'Medium''Poppins', sans-serif;
+color: #4D4D4D;
+font-size: 3em;
+margin-bottom: 5%;
+}
+
+p.kyg{
+font-family: 'Poppins', sans-serif;
+color: #707070;
+width: 75%;
+font-size: 1.2em;
+margin-bottom: 10%;
+}
+
+
+/* footer css */
+
+footer{
+font-family: 'Poppins', sans-serif;
+color: #707070;
+background-color: light grey;
+height: 90px;
+padding: 90px;
+font-size: 1em;
+clear: both;
+position: relative;
+}
+
+.top-button{
+float: right;
+margin-bottom: 5%;
+}
+
+.scrollToTopBtn {
+background-color:transparent;
+border: none;
+color: #707070;
+cursor: pointer;
+font-size: 25pt;
+line-height: 48px;
+width: 50px;
+text-decoration: none;
+
+/* place it at the bottom right corner */
+position: fixed;
+bottom: 55px;
+right: 100px;
+/* keep it at the top of everything else */
+z-index: 100;
+/* hide with opacity */
+opacity: 0;
+/* also add a translate effect */
+transform: translateY(100px);
+/* and a transition */
+transition: all 0.5s ease;
+}
+
+.showBtn {
+opacity: 1;
+transform: translateY(0);
+}
+
+
+
+
+/* * Media Queries */
+@media only screen and (max-width:420px){ 
+body{
+max-width: 100% !important;
+overflow-x: hidden !important;
+}
+.container {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+/* Mobile Nav  */
+.navbar{
+  top: 35px;
+  right: 55px;
+  left: 55px;
+  padding-bottom: 100px;
+  justify-content: center;
+}
+
+.mobile-container{
+  position: absolute;
+  display: block;
+  padding-right: 5%;
+  padding-left: 78%;
+}
+
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 200;
+  height: 250px;
+  top: 0;
+  left: 1000;
+  right: 0;
+  background-color: #FDFDFD;
+  opacity: 0.97;
+  overflow-x: hidden;
+  transition: 0.5s ease-in-out;
+  padding-top: 60px;
+
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 8px;
+  text-align: left;
+  line-height: 25pt;
+  margin-right: 45%;
+  font-size: 20px;
+  color: #70707070;
+  display: block;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+
+.sidepanel a:hover {
+  color: orange;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  padding: 5px;
+  font-size: 25px;
+  top: 40px;
+  left: 85px;
+  right: 0px;
+}
+
+.openbtn {
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 30px;
+  cursor: pointer;
+  background-color:white;
+  color: orange;
+  padding: 0px 0px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: white;
+}
+
+.mob-logo{
+  width: 0;
+  position: absolute;
+  z-index: 1;
+  left: -30px;
+  right: 250px;
+}
+
+#links{
+  padding-top: 30%;
+  padding: 30px;
+  text-align: left;
+}
+
+ .nav-logo{
+  display: none;
+  }
+  .nav-links{
+    display: none;
+    margin-top: -9000px;
+  }
+
+header{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header-content1" 
+    "elements-container2";
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 50px 20px 50px 55px;
+  }
+
+#header-content1{
+  justify-content: center;
+  padding: 0px 10px 0px 20px;
+} 
+
+H1, H2{
+  font-size: 3rem;
+  justify-content: center;
+  margin-top: 8%;
+  margin-bottom: 4%;
+  }
+
+  H1{
+    padding-left: 80px;
+  }    
+
+.introText{
+margin: 0 auto;
+font-size: 1.5rem;
+line-height: 23pt;
+word-break: keep-all;
+justify-content: center;
+}
+
+#elements-container2{
+margin-top: -10%;
+justify-content: center;
+}
+
+.alondraImg{
+width: 105%;
+padding: 90px 0px 25px 20px;
+justify-content: center;
+}
+
+.orgGif{
+ display: none;
+}
+
+.container{
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 600px;
+      grid-template-areas:
+      "content1" 
+      "content2"
+      "content3"
+      "content4"
+      "content5"
+      "content6";
+      max-width: 100%;
+      margin: 0 auto;
+      margin-top: 400px;
+    }
+
+.container > * {
+      display: grid;
+      grid-template-columns: subgrid;
+      columns: 1;
+    }
+/* rework css for this sections */
+
+#content1, #content5{
+justify-content: center;
+}
+    
+.work-Img{
+width: 100%;
+}
+
+.uol-Img{
+ width: 100%;
+}
+    
+#content2, #content4, #content6{
+margin: 0 auto;
+justify-content: center;
+}
+    
+H5, H6{
+margin: 0 auto;
+justify-content: center;
+font-size: 2.3rem;
+    }
+    
+    p.pantry{
+      font-size: 1.2rem;
+      margin-bottom: 10%;
+    }
+
+    p.UOL{
+      font-size: 1.2rem;
+      margin-bottom: 10%;
+      margin-left: 5%;
+    }
+
+    #uol-link{
+      justify-content: right;
+    }
+
+    footer{
+      font-size: .90rem;
+      right: 50px;
+      bottom: -200px;
+    }
+
+    .scrollToTopBtn {
+      bottom: 35px;
+      font-size: 20pt;
+      width: 20px;
+      right: 50px;
+      line-height: 90px;
+    }
+  }
+
+
+
+
+
+
+/* Tablet: 768 x 1024
+Laptop: 1366 x 768
+High-res laptop or desktop: 1920 x 1080 */ 
+
+
+
+
+
+
+
+
+
+
+
+
