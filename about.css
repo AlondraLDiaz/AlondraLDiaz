@@ -1,411 +1,173 @@
 /* nav css */
+
 .nav-logo {
-    width: 10%;
-    padding: 2%;
-    margin: 1%;
-    text-align: center; 
-    font-family: 'Raleway', sans-serif;
-    text-align:center;
-    margin-right: 3%;
-    margin-top: -.3%;
-    margin-bottom: -.5%;
-  }
-
-  nav {
-    font-family: 'Raleway', sans-serif;
-    text-align:center;
-    margin-right: 3%;
+    text-align:right;
     list-style: none;
-    margin-top: .5%;
+    margin-left: 3%;
+    margin-top: -25%;
   }
-
-  .nav-item{
-    font-family: 'Raleway', sans-serif;
-    text-align:center;
-    list-style: none;
+  
+  .navbar{
+  margin-top: 5%;
+  color: #707070;
+  font-family:'Poppins', sans-serif;
+  text-align:left;
+  font-size: 14pt;
+  list-style: none;
+  }
+  
+  .nav-links{ 
+  margin-right: 3%;
+  color: #707070;
+  font-family:'Poppins', sans-serif;
+  font-weight: lighter;
+  text-align:left;
+  list-style: none;
   }
   
   a {
-  color: black;
-  font-weight: lighter;
+  color: #707070;
   }
+  
   a:hover {
   color:#F7BC54;
   }
 
-/* about me HOMEPAGE */
-
-.about-container{
-    display: grid;
-    grid-template-columns: 1fr;
-    margin: 0 auto;
-}
-
-.about-page{
-    margin: 7%;
-    height: 500px;
-    justify-content: center;
-    align-items: center;
-}
-
-.center-block{
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    justify-content: center;
-    align-items: center;
-    position:relative;
-    max-width: 500%;
-    height: 450pt;
-    margin: 0%;
-}
-
-.about{
-    height: 200pt;
-    width: 347pt;
-    align-self: flex-start;
-    padding: 12%;
-    margin-top: 30px;
-    margin-left: 90px;
-    justify-content: right;
-}
-
-.aboutmeText{
-    font-family: 'Raleway', sans-serif;
-    font-size: 17.5pt;
-    word-spacing: 1.5pt;
-    line-height: 27pt;
-    margin: 0%;
-}
-
-
-h1 {
-    font-size: 38pt;
-    font-weight: 45pt;
-    margin-top: -29%;
-    margin-bottom: 10%;
-    letter-spacing: 1pt;
-    align-self: top;
-    text-align: left;
-    font-family: 'Raleway', sans-serif;
-}
-
-.block-pic-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr;
-    justify-content: center;
-    margin: 0 auto;
-}
-
-.about-pic{
-    height: 410px;
-    width: 570px;
-    padding: 15px;
-}
-
-/* orange block */
-
-.block-yellow{
-    background-color: #FFA505;
-    height: 405px;
-    width: 535px;
-    transform: translate(16%, -113.5%);
-    box-shadow: 3px 5px 5px grey;
-}
-
-/* yellow block */
-.block-orange{
-    background-color: #FFE505;
-    height: 395px;
-    width: 540px;
-    transform: translate(8%, -211%);
-    box-shadow: 3px 5px 5px grey;
-}
-
-.about-pic {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-}
-
-  /* Arrow animation */
-
-.sectionArrow {
-    text-align: center; 
-    margin-top: -11%;
-    margin-bottom: 10%;
-  }
-  
-  .orangeArrow {
-    position: relative;
-    animation-name: arrow;
-    animation-duration: 3s ;
-    animation-iteration-count: infinite;
-    transition-timing-function: ease;
-  }
-  
-  @keyframes arrow  {
-    0%   {top:0px;}
-    25%  {top:15px;}
-    50%  {top:0px;}
+  .mobile-container{
+  display: none;
   }
 
- /* About Me Profile */
+/* About Section */
 
-.alondraContainer{
-   display: grid;
-   padding: 90px;
-   margin-top: -5%;
-}
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "aboutText""Img-container";
+    margin-top: -20%;
+  }
 
- .profile-container{
-background-color: #fce8bf;
-display: grid;
-flex-direction: column;
-padding: 150px;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: 720px;
- }
+  #aboutText{
+      padding:50px;
+  }
 
- .profile{
-     background-color:#fce8bf;
-     margin-top: -20%;
- }
+  H1{
+    font-family:'Poppins', sans-serif;
+    color: #4D4D4D;
+    text-align:right;
+    font-size: 7vmin;
+    padding-bottom: 10px;
+  }
 
-H2{
-font-family: 'Extra Bold Raleway', sans-serif;
-font-weight: 10pt;
-font-size: 20pt;
-line-height: 21.5pt;
-letter-spacing: -.5pt;
-margin-bottom: 2%;
-
-}
-
-p.about-profile{
-    font-family: 'Cabin', sans-serif;
-    font-size: 14pt;
-    line-height: 21pt;
-    letter-spacing: .2pt;
-    word-spacing: .5pt;
-    margin-top: 2%;
-    margin-bottom: 3.5%;
-}
-
-
-.profileContent{
-    font-family: 'Cabin', sans-serif;
-    font-size: 14pt;
-    line-height: 21pt;
-    letter-spacing: .2pt;
-    word-spacing: .5pt;
-    margin-top: 4%;
-    margin-bottom: 3.5%;
-}
-
-p.hobbyList {
+.descrip, .descrip2, .descrip3{
+    font-family: 'Poppins', sans-serif;
+    padding-left: 40px;
+    word-break: keep-all;
+    color: #8C8B8B;
     font-weight: lighter;
-    font-family: 'Cabin', sans-serif;
-    font-size: 12pt;
-    line-height: 21pt;
-    text-align: left;
-    justify-content: left;
-    margin-top: -.5%;
-}
+    line-height: 23pt;
+    font-size: 3.2vmin;
+    text-align: right;
+  }
+  
+  h2{
+    font-family:'Poppins', sans-serif;
+    color: #4D4D4D;
+    font-size: 3vmin;
+    text-align:right;
+  }
+  
+.aboutPic{
+    width: 60%;
+    }
+  
+/* Additional Info Section */
 
-
-/* Profile Blocks css */
-
-.pic-container{
-    display: grid;
-    grid-template-columns: 1fr;
+.container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
-}
-
-.alondra-pic{
-    height: 705px;
-    width: 510px;
-    display: start;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    transform: translate(8%, -10%);
-    box-shadow: 3px 2px 0px grey;
-    z-index: 1;
-}
-
-.block-yellow-profile{
-    background-color: #FFA505;
-    height: 730px;
-    width: 550px;
-    transform: translate(14%, -98%);
-    box-shadow: 3px 3px 5px grey;
-}
-
-.block-orange-profile{
-    background-color: #FFE505;
-    height: 730px;
-    width: 530px;
-    transform: translate(12%, -204%);
-    box-shadow: 3px 3px 5px grey;
-
-}
-
-/* WHY UI/UX CSS */
-
-.explanation{
-    padding: 25px;
-    text-align: center;
-    justify-content: center;
-    margin-top: -3%;
-}
-
-.why{
-margin-left: 27%;
-margin-right: 27%;
-text-align: center;
-justify-content: center;
-font-size: 35pt;
-margin-bottom: 5%;
-
-}
-
-h4{
-text-align: center;
-font-family: 'Extra Bold Raleway', sans-serif;
-font-weight: 10pt;
-font-size: 25pt;
-line-height: 21.5pt;
-letter-spacing: -.5pt;
-margin-top: 10%;
-margin-bottom: 8%;
-}
-
-
-p.ancedote{
-text-align: center;
-font-size: 21pt;
-font-family:'Light Cabin', sans-serif;
-line-height: 30pt;
-font-weight: lighter;
-word-spacing: 1pt;
-letter-spacing: .3pt;
-}
-
-
+    grid-template-areas: 
+    "content1" "content2" 
+    "content3" "content4";
+    padding: 80px;
+    }
+    
 h5{
-text-align: center;
-font-family: 'Extra Bold Raleway', sans-serif;
-font-weight: 10pt;
-font-size: 18pt;
-line-height: 21.5pt;
-letter-spacing: -.5pt;
-margin-top: 10%;
-margin-bottom: 25%;
+color:#4D4D4D;
+font-size: 3vmin;
 }
 
-
-/* skills css */
-
-
-.skillsContainer{
-    display: grid;
-    padding: 90px;
-    margin-top: -8%;
+.about1, .about2, .about4{
+    color: #8C8B8B;
 }
-
-.skillsSection{
-display: grid;
-flex-direction: column;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 605px;
-}
-
-.skillsCol{
-grid-template-rows: 400px;
-}
-
-h3{
-    font-family: 'Raleway', sans-serif;
-}
-
-.uxContent{
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-    font-size: 13pt;
-}
-.uiContent{
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-    font-size: 13pt;
-   
-}
-.frontendContent{
-    font-family: 'Cabin', sans-serif;
-    text-align: center;
-    font-size: 13pt;
-}
-
- /* Resume button */
-
- .digitalResume{
-     margin-top: -5%;
-     margin-left: 6.5%;
- }
-
-button[type="resume"]{
-    width:200px;
-    border: none;
-    outline: none;
-    padding: 20px; 
-    font-size: 17px;
-    font-weight: normal;
-    border-radius: 8px;
-    font-family: 'Semibold Raleway', sans-serif;
-    background-color: #FFE505;
-    color: black;
-    text-align: center;
-    cursor: pointer;
-    margin-top: 10px;
-    transition: .3s, ease-in ease-in-out;
-
-}
-
-button[type="resume"]:hover{
-    background-color: #ffe509;
-    font-weight: 500px;
-    color: black;
-    font-weight: bold;
-    font-family: 'Bold Raleway', sans-serif;
-    text-emphasis-color: black;
-    box-shadow: 3px 3px 3px 2px grey;
-    transition: .3s, ease-in-out ;
+    #content1{
+    grid-area: 'content1';
+    font-family: 'Poppins', sans-serif;
+    padding:60px;
+    word-break: keep-all;
+    word-spacing: 1.5pt;
     }
 
-    /* * footer css */ 
+    .about1{
+    line-height: 21pt;
+    font-size: 2.3vmin;
+    }
+ 
+    
+    #content2{
+    grid-area: 'content2';
+    font-family: 'Poppins', sans-serif;
+    padding:60px;
+    }
+  
+/* footer css */
 
-    footer {
-      justify-content: space-evenly;
-      font-size: 18pt;
-      font-family: 'Raleway', sans-serif;
-      color: black;
-      background-color:#fdeed4;
-      padding: 4%;
-      }
-      
-    
-    .footerAll{
-      margin:0 auto;
-      text-align: center;
-    
-    }
-    
-    .footerSocials{
-      margin:0 auto;
-      text-align: center;
-    }
+footer{
+font-family: 'Poppins', sans-serif;
+color: #707070;
+background-color: light grey;
+height: 90px;
+padding: 90px;
+font-size: 1em;
+clear: both;
+position: relative;
+}
+
+.top-button{
+float: right;
+margin-bottom: 5%;
+}
+
+.scrollToTopBtn {
+background-color:transparent;
+border: none;
+color: #707070;
+cursor: pointer;
+font-size: 25pt;
+line-height: 48px;
+width: 50px;
+text-decoration: none;
+
+/* place it at the bottom right corner */
+position: fixed;
+bottom: 55px;
+right: 100px;
+/* keep it at the top of everything else */
+z-index: 100;
+/* hide with opacity */
+opacity: 0;
+/* also add a translate effect */
+transform: translateY(100px);
+/* and a transition */
+transition: all 0.5s ease;
+}
+
+.showBtn {
+opacity: 1;
+transform: translateY(0);
+}
+
 
 
 
