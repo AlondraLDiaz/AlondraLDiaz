@@ -3,8 +3,8 @@
 .nav-logo {
   text-align:right;
   list-style: none;
-  margin-left: 3%;
-  margin-top: -20%;
+  margin-left: 5%;
+  margin-top: -23%;
 }
 
 .navbar{
@@ -50,7 +50,8 @@ padding-left: 50px;
 }
 
 #header-content1{
-  padding: 15px;
+padding: 20px;
+margin-top: -5%;
 }
  
 H1{
@@ -65,7 +66,7 @@ font-size: 7vmin;
   color: #8C8B8B;
   font-weight: lighter;
   font-size: 4vmin;
-  line-height: 30pt;
+  line-height: 27pt;
   text-align: right;
   letter-spacing: .5pt;
   word-wrap: break-word;
@@ -78,6 +79,7 @@ h2{
   font-weight: lighter;
   font-size: 7vmin;
   text-align:right;
+  padding-top: 10px;
 }
 
   .alondraImg{
@@ -86,9 +88,10 @@ h2{
 
 
 .orgGif{
-display: none;
+  display: none;
 width: 20%;
-translate: ;
+transform: rotate(19deg);
+transform: translate(0%, 21%);
 }
 
 /* reworked CSS */
@@ -101,6 +104,7 @@ grid-template-areas:
 "content3" "content4"
 "content4" "content6"
 "footer";
+padding-top: 150px;
 margin-right: 5%;
 grid-gap: 2em;
 }
