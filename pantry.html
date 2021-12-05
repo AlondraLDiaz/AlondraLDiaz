@@ -1,108 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="pantry.css">
+        <script src="https://unpkg.com/scrollreveal"></script>
         <script src="https://kit.fontawesome.com/e131827593.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="pantry.css">
-    <script src="https://unpkg.com/scrollreveal"></script>
-</head>
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <script src="https://use.fontawesome.com/7c396dc5cb.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
 
 <body>
-        <header>
-            <nav class="navbar navbar-expand-lrg bg">
-                <div class="nav-logo"> <a href="index.html"> <img src="images/Alondra Portfolio logo.png"> </a></div>
-                <div class="nav">
-                    <div class="nav-item">
-                        <a class="nav-link" href="about.html">About</a>
-                    </div>
-                    <div  class="nav-item">
-                        <a class="nav-link" href="index.html">Work</a>
-                    </div>
-                    <div class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </div> 
-                </div>
-            </nav>
-    </header>
-
-
-    <section class="projectOverview">
-
-        <div class="backgroundBox">
-
-            <div class="mockupContainer">
-                <div class="row align-items-start">
-                    <div class="col">
-                        <img src="Pantry Images/Pantry mockup home.png" style="width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="Pantry Images/Pantry mockup Explore.png" style="width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="Pantry Images/Pantry Mockup digital Pantry page.png" style="width: 200px;">
-                    </div>
-                    <div class="col">
-                        <img src="Pantry Images/meal info plan mockup.png" style="width: 200px;">
-                    </div>
-                    </div>
-                </div>
+    <nav class="navbar">
+        <h1 class="nav-logo"> <a class="nav-logo" href="http://www.alondraloladiaz.com/"><img
+                    src="Redesign Assets/HomePage Assets /Logo AD OP.png" style="width: max 10%;width: 60px;"></a></h1>
+        <ul class="nav-links">
+            <ol>
+                <a class="nav-link" href="/">Work</a>
+            </ol>
+            <ol>
+                <a class="nav-link" href="about.html">About</a>
+            </ol>
+            <ol>
+                <a class="nav-link" href="Redesign Assets/Alondra D Resume.pdf">Resume</a>
+            </ol>
+            <ol>
+                <a class="nav-link" href="https://dribbble.com/Alondralola"><i class="fab fa-dribbble"
+                        style="font-size:1.5em;"></i></a>
+            </ol>
+            <ol>
+                <a class="nav-link" href="https://instagram.com/Chulolaa/"><i class="fab fa-instagram"
+                        style="font-size:1.75em;"></i></a>
+            </ol>
+            <ol>
+                <a class="nav-link" href="https://github.com/AlondraLDiaz"><i class="fab fa-github"
+                        style="font-size:1.5em;"></i></a>
+            </ol>
+        </ul>
+        <div class="mobile-container">
+            <a class="mob-logo" href="http://www.alondraloladiaz.com/"><img
+                src="Redesign Assets/HomePage Assets /Logo AD OP.png" style="width: 50px;"></a>
+            <!-- Top Navigation Menu -->
+            <div id="mySidepanel" class="sidepanel">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                <div id="links">
+                <a class="mob-link" href="/" style="color: orange;">Work</a>
+                <a class="mob-link" href="about.html">About</a>
+                <a class="mob-link" href="Redesign Assets/Alondra D Resume.pdf">Resume</a>  
+                <a class="nav-link" href="https://dribbble.com/Alondralola"><i class="fab fa-dribbble"
+                    style="font-size:1.70rem;padding-top: 8px;"></i></a>
+            <a class="nav-link" href="https://instagram.com/Chulolaa/"><i class="fab fa-instagram"
+                    style="font-size:2rem;padding-top: 8px;"></i></a>
+            <a class="nav-link" href="https://github.com/AlondraLDiaz"><i class="fab fa-github"
+                    style="font-size:1.70rem;padding-top: 8px;"></i></a>
             </div>
+            </div>
+              <button class="openbtn" onclick="openNav()">☰</button>  
+              <script>
+              function openNav() {
+                document.getElementById("mySidepanel").style.width = "40%";
+                document.getElementById("mySidepanel").style.height = "100%";
+              }      
+              function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+              }
+             </script>
+               </div>
         </div>
-    </section>
- 
+    </nav>
+   
+<header>
 
-
-
- <!--  Introduction -->
-
-<div class="pantryOverview">
-    <H1> <strong> Pantry </strong></H1>
-    <p class="pantry">Pantry is a food guide app that helps people easily explore food recipes
-        and local cuisines to ease the choice in planning a meal or deciding where and what to eat.
-        Pantry was created to help plan meals ahead of time so that one is able to save money and
-        time while providing a healthy meal to serve any family size.</p>
+<div id="HeroSection">
+<img class="HeroImg" src="Redesign Assets/Pantry Assets/Group 55.png" style="width: 100%;">
 </div>
 
-<section class="project-Container">
+<div id="heroInfo">
+<img src="Redesign Assets/Pantry Assets/Group 56.png"style="width: 80%;">
 
-    <div class="synopsisContainer">
-        <div class="detailed-block">
-        <H3 >Project Overview</H3>
-        <H4>Problem</H4>
-        <p class="details">
-            We believe that there is a universal struggle for people to decide what to cook for dinner or if they should eat out instead. Many don’t have a plan or the time to figure out what to cook that night. </p>
+</div>
 
-        <H4>Solution</H4>
-        <p class="details">
-            We believe Pantry, a meal planning app for people who are too busy or have trouble figuring out what to eat, will help our users create meal plans that fit their schedule so they can achieve a more productive meal time without having to worry about what to cook.</p>
-        </div>
-    </div>
-    <div class="detailedContainer">
-        <div class="detailed-block">
-        <H4>Role</H4>
-        <p class="snippets"> UX/UI Designer </p>
-        <H4>Time</H4>
-        <p class="snippets"> 2 weeks</p>
-        <H4>Tools</H4>
-        <p class="snippets"> Adobe XD, Powerpoint,
-            Trello, Miro Board</p>
-        <H4>Goal</H4>
-        <p class="snippets">  Design a food app to help in practical daily life. </p>
-        <div class="btnproto">
-        <a href="https://xd.adobe.com/view/45399354-7de2-4740-b1cb-2c39e2bdc7a5-106a/" id class="btnproto"> <button type="finalProto"> View Prototype</button></a>    
-    </div>
-    </div>
 
-</section>
+<div id="problem">
 
+<img class="probPic" src="Redesign Assets/Pantry Assets/Group 62.png"style="width: 28%;">
+
+<p class="statement">One of the biggest challenges to eating at home is cooking. This is because people either may not
+    have time to decide on a meal they’d like to try or they can’t figure out what ingredients are necessary for meals.
+    People also want to save time and money. But oftentimes, they find themselves spending more time trying to decide
+    what to eat rather than cooking meals. This leads to eating out and spending more money on groceries and take out.
+    Overall, wasting time, money and food.
+</p>
+
+</div>
+
+
+
+</header>
+
+<!--  Introduction -->
 
  <!--  Research Section -->
 
@@ -421,7 +428,7 @@
 
 
 
-            <script>
+            <!-- <script>
                 ScrollReveal({ 
                         reset: true,
                         distance: '5px',
@@ -443,7 +450,7 @@
                 ScrollReveal().reveal('span', { delay: 5,easing:'ease-in', origin: 'top'});
                 ScrollReveal().reveal('footer', { delay: 5,easing:'ease-in', origin: 'top'});
                 
-                 </script>
+                 </script> -->
 
 
 </body>
