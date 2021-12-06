@@ -78,8 +78,8 @@ margin-left: 35%;
 /* Case study Section ~~~*/
 
 
-      /* Background Section */
-
+      /* Background Section & Research Section  */
+      
    .backSection{
     background-attachment: fixed;
     z-index: -1;
@@ -88,6 +88,12 @@ margin-left: 35%;
 
 
 
+   /* Insights Section */
+
+   .insightSection{
+    background-attachment: fixed;
+    z-index: -1;
+   }   
 
 
 
