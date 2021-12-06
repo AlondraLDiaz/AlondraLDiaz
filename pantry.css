@@ -63,11 +63,11 @@ margin-left: 35%;
 
 .statement{
   padding-top: 4%;
-  padding-right: 19%;
-  padding-left: 19%;
+  padding-right: 20%;
+  padding-left: 21%;
   justify-content: center;
-  color: #707070;
-  font-family: 'Medium''Futura', sans-serif;
+  color: #8C8B8B;
+  font-family: 'Regular''Futura', sans-serif;
   font-size: 3.7vmin;
   line-height: 33pt;
   word-spacing: 2pt;
@@ -75,8 +75,24 @@ margin-left: 35%;
 }
 
 
+/* Case study Section ~~~*/
 
-/* Case study Section*/
+
+      /* Background Section */
+
+   .backSection{
+    background-attachment: fixed;
+    z-index: -1;
+   }   
+
+
+
+
+
+
+
+
+
 
 
 h1{
